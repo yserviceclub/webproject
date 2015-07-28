@@ -1,0 +1,112 @@
+// Title of node
+.page-header {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: none;
+  font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+// Home page
+.current-version {
+	text-align: center;
+	margin-top: -20px;
+	margin-bottom: 60px;
+	font-size: 1.5em;
+}
+.link-block {
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-bottom: 50px;
+	float: left;
+
+	&.github .logo-icon {
+		background-image: url('../logos/Octocat.png');
+	}
+	&.yservice .logo-icon {
+		background-image: url('../logos/YSC-ottawa.png');
+		background-size: 300px;
+		width: 300px;
+		
+	}
+	@media (min-width: @screen-sm-min) {
+		width: 50%;
+	}
+}
+.logo-icon {
+		margin: auto;
+		background-size: 200px;
+		background-repeat: no-repeat;
+	    background-position: center;
+		display: block;
+		width: 250px;
+		height: 205px;
+}
+
+// credits
+.basecamp {
+	text-align: center;
+	h3{
+		font-size: 1.5em;
+	}
+	a {
+		background-image: url('../logos/basecamp.png');
+		background-repeat: no-repeat;
+		height: 90px;
+		width: 400px;
+		display: block;
+		margin: auto;
+	}
+	ul {
+		padding: 0;
+		list-style-type: none;
+	}
+} 
+
+//personas
+.personas {
+	h3 {
+		font-size: 1.5em;
+	}
+
+	h4:first-of-type {
+		margin-top: 0;
+	}
+
+	h4 {
+		margin-top: 20px;
+	}
+	h5 {
+		font-style: italic;
+	}
+	@media (min-width: @screen-sm-min) {
+		width: 86%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	@media (min-width: @screen-md-min) {
+		width: 70%;
+	}
+	@media (min-width: @screen-lg-min) {
+		width: 60%;
+	}
+}
+
+// pdf iframe
+iframe.pdf {
+	width: 80%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+h3.centered {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 30px;
+}
